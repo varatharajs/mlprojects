@@ -1,36 +1,51 @@
-### Excess and Obsolete (E&O) Inventory Management Project
+# Excess and Obsolete (E&O) Inventory Management Project
 
-Overview
+## Overview
+
 This project aims to develop a predictive and data-driven approach to managing excess and obsolete (E&O) inventory for a leading chemical company. The solution involves identifying high-risk SKUs, implementing dynamic inventory adjustments, and creating actionable insights to reduce financial risks associated with excess and unsellable stock. The project uses machine learning models to predict E&O risk and visualizes the results in a Power BI dashboard for stakeholders.
 
-Project Structure
-Data Preparation: Data cleaning, feature engineering, and encoding were performed to prepare for modeling.
-Modeling: Regression and classification models were built to identify key drivers of E&O risk and predict high-risk SKUs.
-Evaluation: Model performance was assessed using metrics such as R-squared, MAE for regression, and F1 score, accuracy, and Jaccard index for classification.
-Power BI Dashboard: A Power BI dashboard was developed to visualize insights, including key drivers, seasonality, SKU risk segmentation, and actionable recommendations.
-Key Components
-1. Data Preparation
+## Project Structure
+
+### Data Preparation:
+Data cleaning, feature engineering, and encoding were performed to prepare for modeling.
+### Modeling:
+Regression and classification models were built to identify key drivers of E&O risk and predict high-risk SKUs.
+### Evaluation:
+Model performance was assessed using metrics such as R-squared, MAE for regression, and F1 score, accuracy, and Jaccard index for classification.
+### Power BI Dashboard:
+A Power BI dashboard was developed to visualize insights, including key drivers, seasonality, SKU risk segmentation, and actionable recommendations.
+
+## Key Components
+### 1. Data Preparation
 Feature Engineering: Created time-based features, rolling averages, and lagged demand values to capture seasonality and demand trends.
 Encoding: Categorical variables were encoded using Label Encoding, and mappings were maintained for interpretability.
 Missing Value Handling: Median imputation was applied for missing values in numeric columns to ensure data consistency.
-2. Machine Learning Models
+### 2. Machine Learning Models
 Regression Models:
 Gradient Boosting Regressor: Selected as the best model based on R-squared and MAE, effectively capturing non-linear relationships.
 Random Forest Regressor: Also used for comparison, achieving similar results.
 Classification Models:
 Random Forest Classifier: Identified as the best model for classifying high-risk SKUs with high accuracy and F1 score.
 Logistic Regression: Used as a baseline model to compare results.
-3. Power BI Dashboard
+### 3. Power BI Dashboard
 The dashboard provides an interactive and visual representation of the insights from the model. Key sections include:
 
-Overview: KPI cards highlighting total excess stock, high-risk SKU count, and average carrying cost.
-Segmentation: Pie charts and bar charts showing risk distribution by lifecycle phase and subdivision.
-Feature Influence: Visuals depicting the average impact of key features like Carrying Cost and Demand Fluctuation on E&O risk.
-SKU Analysis: Detailed tables with filtering options to explore individual SKU metrics and risk levels.
-Trend Analysis: Line charts displaying demand seasonality to guide inventory adjustments based on forecasted trends.
-Usage
+### Overview:
+KPI cards highlighting total excess stock, high-risk SKU count, and average carrying cost.
+### Segmentation:
+Pie charts and bar charts showing risk distribution by lifecycle phase and subdivision.
+### Feature Influence:
+Visuals depicting the average impact of key features like Carrying Cost and Demand Fluctuation on E&O risk.
+### SKU Analysis:
+Detailed tables with filtering options to explore individual SKU metrics and risk levels.
+### Trend Analysis:
+Line charts displaying demand seasonality to guide inventory adjustments based on forecasted trends.
+
+## Usage
 1. Model Training and Evaluation
-The Python code provided in this repository handles data preprocessing, model training, and evaluation. The models are configured with hyperparameter tuning for optimal performance. To run the code:
+The Python code provided in this repository handles data preprocessing, model training, and evaluation. The models are configured with hyperparameter tuning for optimal performance.
+
+To run the code:
 
 Ensure all dependencies are installed (see Requirements).
 Run the Jupyter notebook or Python scripts in the src directory for data preprocessing, model training, and evaluation.
