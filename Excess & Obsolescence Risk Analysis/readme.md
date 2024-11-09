@@ -42,7 +42,8 @@ Detailed tables with filtering options to explore individual SKU metrics and ris
 Line charts displaying demand seasonality to guide inventory adjustments based on forecasted trends.
 
 ## Usage
-1. Model Training and Evaluation
+
+### Model Training and Evaluation:
 The Python code provided in this repository handles data preprocessing, model training, and evaluation. The models are configured with hyperparameter tuning for optimal performance.
 
 ### To run the code:
