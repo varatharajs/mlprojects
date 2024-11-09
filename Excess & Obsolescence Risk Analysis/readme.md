@@ -1,4 +1,5 @@
-Excess and Obsolete (E&O) Inventory Management Project
+### Excess and Obsolete (E&O) Inventory Management Project
+
 Overview
 This project aims to develop a predictive and data-driven approach to managing excess and obsolete (E&O) inventory for a leading chemical company. The solution involves identifying high-risk SKUs, implementing dynamic inventory adjustments, and creating actionable insights to reduce financial risks associated with excess and unsellable stock. The project uses machine learning models to predict E&O risk and visualizes the results in a Power BI dashboard for stakeholders.
 
