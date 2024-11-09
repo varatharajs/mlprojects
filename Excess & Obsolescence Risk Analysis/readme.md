@@ -45,38 +45,52 @@ Line charts displaying demand seasonality to guide inventory adjustments based o
 1. Model Training and Evaluation
 The Python code provided in this repository handles data preprocessing, model training, and evaluation. The models are configured with hyperparameter tuning for optimal performance.
 
-To run the code:
+### To run the code:
 
 Ensure all dependencies are installed (see Requirements).
+
 Run the Jupyter notebook or Python scripts in the src directory for data preprocessing, model training, and evaluation.
+
 Model results will be printed in the console and saved in a CSV file (dashboard_data.csv) for dashboard use.
-2. Power BI Dashboard Setup
+
+### 2. Power BI Dashboard Setup
 Open Power BI Desktop.
 Load dashboard_data.csv into Power BI.
+
 Follow the guide in the notebook to set up visuals, including KPI cards, bar charts, and line charts.
 Requirements
-Python 3.x
-Libraries: pandas, numpy, scikit-learn, matplotlib
-Power BI Desktop (for dashboard visualization)
-Implementation Roadmap
+- Python 3.x
+- Libraries: pandas, numpy, scikit-learn, matplotlib
+- Power BI Desktop (for dashboard visualization)
+
+## Implementation Roadmap
 Phase 1: Enhance Forecasting Accuracy – Improve forecast accuracy for SKUs with high variability.
 Phase 2: Dynamic Safety Stock – Implement dynamic safety stock calculations.
 Phase 3: Lifecycle Management – Prioritize SKUs in the Decline phase for inventory reduction.
 Phase 4: Seasonal Adjustments – Adjust inventory levels based on seasonal trends.
 Phase 5: Dashboard and Alerts – Integrate real-time dashboards and alerts for proactive management.
-Key Insights & Recommendations
-High Carrying Cost: SKUs with high carrying costs pose a higher risk of E&O; consider reducing stock levels or adjusting reorder points.
-Demand Fluctuation: High variability in demand calls for dynamic forecasting models that adjust based on trends.
+
+## Key Insights & Recommendations
+
+### High Carrying Cost:
+SKUs with high carrying costs pose a higher risk of E&O; consider reducing stock levels or adjusting reorder points.
+
+### Demand Fluctuation:
+High variability in demand calls for dynamic forecasting models that adjust based on trends.
 Proactive Lifecycle Management: Act on SKUs in the Decline phase to avoid unsellable stock.
-Seasonality: Seasonal adjustments for products like Agrochemicals can reduce inventory waste.
-Future Enhancements
+
+### Seasonality:
+Seasonal adjustments for products like Agrochemicals can reduce inventory waste.
+
+### Future Enhancements
 Anomaly Detection: Integrate anomaly detection to identify sudden changes in SKU demand or lead times.
 Automated Alerts: Add automated alerts for inventory planners to act on high-risk SKUs in real time.
 Additional Data Integration: Integrate additional external factors, such as market trends or supplier reliability, to refine risk predictions.
-Contributing
+
+### Contributing
 Contributions are welcome! Please follow these steps:
 
-Fork the repository.
+### Fork the repository.
 Create a new branch (feature/my-feature).
 Commit changes.
 Push to the branch.
