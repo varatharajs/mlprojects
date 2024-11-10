@@ -63,4 +63,4 @@ This project successfully demonstrated a data-driven approach to demand forecast
     cd mlprojects/Supply\ Chain\ Demand\ Forecasting\ -\ DataCo\ Global
 
    ### For more details visit the below repository:
-  https://github.com/varatharajs/mlprojects/tree/168bc43285247f98191477f11edf63be193b9664/Supply%20Chain%20Demand%20Forecasting%20-%20DataCo%20Global
+        https://github.com/varatharajs/mlprojects/tree/168bc43285247f98191477f11edf63be193b9664/Supply%20Chain%20Demand%20Forecasting%20-%20DataCo%20Global
