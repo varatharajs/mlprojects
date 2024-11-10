@@ -55,6 +55,12 @@ This project successfully demonstrated a data-driven approach to demand forecast
 - Libraries: `pandas`, `numpy`, `Prophet`, `scikit-learn`, `matplotlib`, `seaborn`
 
 ### Installation
+
 1. Clone the repository:
    ```bash
-   git clone [<repository_url>](https://github.com/varatharajs/mlprojects/tree/168bc43285247f98191477f11edf63be193b9664/Supply%20Chain%20Demand%20Forecasting%20-%20DataCo%20Global)
+   git clone https://github.com/varatharajs/mlprojects.git
+
+    cd mlprojects/Supply\ Chain\ Demand\ Forecasting\ -\ DataCo\ Global
+
+   ### For more details visit the below repository:
+  https://github.com/varatharajs/mlprojects/tree/168bc43285247f98191477f11edf63be193b9664/Supply%20Chain%20Demand%20Forecasting%20-%20DataCo%20Global
